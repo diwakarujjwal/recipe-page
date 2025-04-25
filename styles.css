@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    margin-top: 70px;
+    font-family: Outfit;
+
+}
+
+img {
+    display: flexbox;
+    width: 600px;
+    position: relative;
+    left: 60px;
+    top: 60px;
+    border-radius: 20px;
+}
+
+.main {
+    width: 720px;
+    display: flexbox;
+    position: relative;
+    left: 375px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+.heading {
+    font-family: "Young Serif";
+    font-weight: 400;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-style: normal;
+    color: hsl(24, 5%, 18%);
+    font-size: 35px;
+}
+
+.content {
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.prep-heading {
+    color: hsl(332, 51%, 32%);
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.prep {
+    background-color: hsl(330, 100%, 98%);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    margin-left: -5px;
+}
+
+span.sec-heading {
+    font-family: "Young Serif";
+    font-size: 24px;
+    color: hsl(14, 45%, 36%);
+    display: block;
+}
+
+ul,
+ol {
+    margin-left: -20px;
+}
+
+li {
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+th {
+    text-decoration: none;
+    font-weight: 400;
+    padding: 5px;
+    text-align: left;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 30px;
+}
+
+tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+td {
+    padding: 5px;
+    text-align: left;
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
