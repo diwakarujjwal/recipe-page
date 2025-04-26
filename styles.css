@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+:root {
+--White: hsl(0, 0%, 100%);
+--Stone100: hsl(30, 54%, 90%);
+--Stone150: hsl(30, 18%, 87%);
+--Stone600: hsl(30, 10%, 34%);
+--Stone900: hsl(24, 5%, 18%);
+--Brown800: hsl(14, 45%, 36%);
+--Rose800: hsl(332, 51%, 32%);
+--Rose50: hsl(330, 100%, 98%);
+}
+
 body {
-    background-color: hsl(30, 54%, 90%);
+    background-color:var(--Stone100);
     margin-top: 70px;
     font-family: Outfit;
 
@@ -18,11 +29,11 @@ img {
     border-radius: 20px;
 }
 
-.main {
+main {
     width: 720px;
     margin: auto;
     height: auto;
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--White);
     border-radius: 20px;
     padding-bottom: 30px;
 }   
@@ -33,7 +44,7 @@ img {
     margin-top: 80px;
     margin-left: 60px;
     font-style: normal;
-    color: hsl(24, 5%, 18%);
+    color: var(--Stone900);
     font-size: 35px;
 }
 
@@ -44,14 +55,14 @@ img {
 }
 
 .prep-heading {
-    color: hsl(332, 51%, 32%);
+    color: var(--Rose800);
     font-family: Outfit;
     font-size: 20px;
     font-weight: 700;
 }
 
 .prep {
-    background-color: hsl(330, 100%, 98%);
+    background-color: var(--Rose50);
     padding: 30px;
     margin: 20px;
     border-radius: 20px;
@@ -61,8 +72,9 @@ img {
 span.sec-heading {
     font-family: "Young Serif";
     font-size: 24px;
-    color: hsl(14, 45%, 36%);
+    color: var(--Rose800);
     display: block;
+    padding-bottom: 10px;
 }
 
 ul,
@@ -96,11 +108,11 @@ tr {
 td {
     padding: 5px;
     text-align: left;
-    color: hsl(332, 51%, 32%);
+    color: var(--Rose800);
     font-weight: 700;
 }
 
-.attribution {
+footer {
     text-align: center;
     margin: 20px auto auto 20px;
 }
@@ -116,7 +128,7 @@ td {
 body {
             height: auto;
             width: auto;
-            background-color: white;
+            background-color: var(--White);
             font-family: Outfit;
             margin-top: 0;    
         }
